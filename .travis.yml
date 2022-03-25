@@ -1,9 +1,7 @@
 # .travis.yml file
 language: node_js
 node_js:
-
   - "12"
- 
 services: mongodb  
 cache:  
   directories:
@@ -11,6 +9,5 @@ cache:
 install:
   - npm install
 script:
- 
   - npm test
   
